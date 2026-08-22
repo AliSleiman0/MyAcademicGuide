@@ -1,0 +1,83 @@
+/* MessageBoxStyles.css */
+.custom-message-box .rce-mbox {
+    background-color: #ebfffc !important;
+}
+
+.chat-room-selected {
+    font-weight: bold;
+    border-left: 2px solid #00918f; /* Ant Design primary color */
+}
+
+.chat-room-notifcation {
+    min-width: fit-content;
+    font-weight: bold;
+}
+/* shrink the entire bubble: less padding & a tighter max-width */
+.rce-mbox {
+    padding: 2px 6px !important;
+    max-width: 100% !important; /* or whatever percentage you prefer */
+    overflow: hidden;
+}
+
+/* shrink the text size & line-height */
+.rce-mbox-text {
+    font-size: 12px !important;
+    line-height: 1.2 !important;
+}
+
+/* optionally shrink the timestamp underneath */
+.rce-mbox-date {
+    font-size: 10px !important;
+}
+
+.message-right .rce-mbox {
+    background-color: #dcf8c6 !important; /* WhatsApp light green */
+    border-radius: 16px 16px 0 16px !important;
+    padding: 8px 12px !important;
+    color: #202c33 !important;
+    align-self: flex-end; /* push to the right */
+}
+
+.message-left .rce-mbox {
+    border-radius: 16px 16px 0 16px !important;
+    padding: 8px 12px !important;
+    color: #202c33 !important;
+    align-self: flex-end; /* push to the right */
+}
+
+.chat-list {
+    min-width: 100% !important;
+}
+
+.custom-chat-list .chat-item {
+    transition: all 0.3s ease;
+    padding: 12px 16px;
+    border-radius: 8px;
+    margin: 4px 8px;
+}
+
+/*    .custom-chat-list .chat-item:hover {
+        background-color: #f5f5f5;
+        transform: translateX(4px);
+    }*/
+
+.custom-chat-list .active-chat {
+    background-color: #e6f7ff !important;
+    position: relative;
+}
+
+    .custom-chat-list .active-chat::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 3px;
+        background-color: #1890ff;
+    }
+
+.ant-avatar-lg {
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+}

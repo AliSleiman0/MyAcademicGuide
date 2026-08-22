@@ -1,0 +1,6 @@
+.custom-table .ant-table-thead > tr > th {
+    background-color: #d2faf180;
+}
+.custom-table {
+    max-height: 90vh;
+}
