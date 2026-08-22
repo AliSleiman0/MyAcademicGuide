@@ -1,0 +1,91 @@
+﻿@keyframes flash {
+    0% {
+        background-color: #038b94;
+        color:white
+    }
+    12.5% {
+        background-color: transparent;
+    }
+
+    25% {
+        background-color: #038b94;
+        color: white
+    }
+    37.5% {
+        background-color: transparent;
+    }
+    50% {
+        background-color: #038b94;
+        color: white
+    }
+    62.5% {
+        background-color: transparent;
+    }
+    75% {
+        background-color: #038b94;
+        color: white
+    }
+    100% {
+        background-color: transparent;
+    }
+    
+}
+
+.flash-highlight {
+    animation: flash 3s ease-in-out;
+
+}
+/* Base mobile-first styles */
+.ahmadRequest {
+    /* Initial positioning and style */
+  
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+    margin: 0;
+    opacity: 0.9;
+    transition: all 0.5s ease-in-out;
+    /* Horizontal layout for mobile */
+    writing-mode: horizontal-tb;
+    text-orientation: mixed;
+    /* Animation */
+    animation: mobile-float 3s ease-in-out infinite;
+}
+
+/* Mobile animation */
+@keyframes mobile-float {
+    0%, 100% {
+        transform: translateX(10%) rotate(-1deg);
+    }
+
+    50% {
+        transform: translateX(15%) rotate(1deg);
+    }
+}
+
+/* Desktop styles (lg breakpoint - 992px) */
+@media screen and (min-width: 992px) {
+    .ahmadRequest {
+        writing-mode: vertical-rl;
+        text-orientation: sideways;
+        font-size: 3.5rem;
+        color: #006e5b;
+        letter-spacing: 0.8rem;
+        /* Reset mobile animation */
+        animation: desktop-float 3s ease-in-out infinite;
+        /* Positioning */
+
+
+        transform: translate(-10%, -10%);
+    }
+
+    /* Desktop animation */
+    @keyframes desktop-float {
+        0%, 100% {
+            transform: translate(0%, 5%) rotate(-2deg);
+        }
+
+        50% {
+            transform: translate(5%, 10%) rotate(2deg);
+        }
+    }
+}

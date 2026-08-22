@@ -1,0 +1,298 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "dashboard": "Dashboard",
+    "change_theme": "Change Theme",
+    "change_lang": "Change Language",
+    "confirm": "Confirm",
+    "error": "Error",
+    "back": "Back",
+    "success": "Success"
+
+  },
+  "sider": {
+    "plan_of_study": "Plan of Study",
+    "dynamic_pos": "Dynamic POS",
+    "customized_pos": "Customized POS",
+    "logout": "Logout",
+    "forget_pass": "Forget Password",
+    "profile": "Profile",
+    "auth_pages": "Auth",
+    "schedule": "Scheduling Tool",
+    "advisor": "Respective Advisors",
+    "chat": "Contact Advisor",
+    "advisor_text1": "Academic Advisors",
+    "advisor_text2": "Meet our experienced faculty members corresponding to your school and campus",
+    "reach_out": "Reach Out"
+
+  },
+  "profile": {
+    "profile": "Profile",
+    "personal_info": "Personal Info",
+    "security_settings": "Security Settings",
+    "full_name": "Full Name",
+    "id": "ID",
+    "email": "Email",
+    "campus": "Campus",
+    "update_profile_image": "Update Profile",
+    "basic": "Basic upload",
+    "bulkUpload": "You can update your profile photo here just by dragging a new profile",
+    "clickToUpload": "Click to upload",
+    "directory": "Upload directory",
+    "dragger": "Dragger upload",
+    "dragUpload": "Click or drag file to this area to upload",
+    "failedUpload": "{{name}} file upload failed.",
+    "successUpload": "{{name}} file uploaded successfully.",
+    "change_password": "Change Password",
+    "new_password": "New Password",
+    "confirm_password": "Confirm Password",
+    "required": "Required"
+
+  },
+  "securitySettings": {
+    "changePassword": "Change Password",
+    "confirmPassword": "Confirm Password",
+    "currentPassword": "Current Password",
+    "dontMatchPassword": "The two passwords that you entered do not match",
+    "newPassword": "New Password",
+    "notValidPassword": "Your password should be minimum eight characters and contain at least one uppercase letter, one lowercase letter and one number",
+    "requiredPassword": "Please input your password!",
+    "samePassword": "Your new password can't be same as previous password",
+    "title": "Security Settings",
+    "twoFactorAuth": "Two–factor authentication",
+    "verify": "Verify"
+  },
+
+  "welcome": {
+    "semester_fall": "Fall Semester",
+    "semester_spring": "Spring Semester",
+    "semester_summer": "Summer Semester",
+    "title": "Welcome back! It’s ",
+    "registration": " Registration is currently ",
+    "reg_status_open": "Open",
+    "reg_status_closed": "Closed",
+    "contact": ". If you have any questions, do not hesitate to contact your advisor via the built-in chatting tool."
+  },
+  "courses": {
+    "my_courses": "My Courses",
+    "completed_vs_required": {
+      "title": "Completed vs. Required Courses",
+      "progress": "Progress",
+      "completed": "Completed",
+      "remaining": "Remaining"
+    },
+    "passed_percentage": {
+      "title": "% Passed/Taken Courses",
+      "percentage": "Percentage",
+      "passed": "Passed",
+      "failed": "Failed"
+    },
+    "credits": {
+      "credits": "Credits",
+      "title": "Credits Completed",
+      "progress": "Progress",
+      "completed": "Completed",
+      "remaining": "Remaining",
+      "failed_withdrawn": "Failed/Withdrawn"
+    },
+    "course_types": {
+      "Core": "Core",
+      "Major": "Major",
+      "Major Elective": "Major Elective",
+      "General Elective": "General Elective",
+      "General Education": "General Education"
+    },
+    "courses_lists": {
+      "completed_courses": "Completed Courses",
+      "currently_registered": "Currently Registered",
+      "remianing_failed_courses": "Remaining-Failed Courses"
+    },
+    "register_status": {
+      "can_register": "You can register this course",
+      "cannot_register": "You cannot register this course"
+    },
+    "failed_withdrawn_status": {
+      "status_f": "Retake Needed",
+      "status_w": "Withdrawn"
+    }
+  },
+
+
+  "time_periods": {
+    "am": "AM",
+    "pm": "PM"
+  },
+
+
+  "footer": {
+    "f_text1": "Made by",
+    "f_text2": "in",
+    "f_text3": "Based on"
+  },
+  "grades": {
+    "distribution": "My Grades Distribution"
+  },
+  "pos": {
+    "show": "Show Courses Status",
+    "prerequisites": "Prerequisites",
+    "corequisites": "Corequisites",
+    "legends": "Courses Legends",
+    "passed_course": "Passed Course",
+    "registered_course": "Registered Course",
+    "can_register_course": "Can Register",
+    "cannot_register_course": "Cannor Register",
+    "source_course": "Source course",
+    "target_course": "Target course",
+    "text": "Plan of Study of "
+
+
+  },
+  "customised_pos": {
+    "title": "Customised Study Plan for Upcoming Semester ",
+    "Best_title": "Best Study Plan for ",
+    "generate_remaining_semesters": "Generate Remaining Semesters",
+    "place_holder": "Add Courses to Fill your Plan!",
+    "select": "Select",
+    "priority": "Priority",
+    "course_name": "Course Name",
+    "code": "Code",
+    "type": "Type",
+    "credits": "credits",
+    "modal_title_generate": "Confirm Generation",
+    "modal_text_generate_customized": "We'll generate your remaining semesters ",
+    "modal_text_generate_customized1": "based on your upcoming semester plan.",
+    "modal_text_generate_customized2": "This process may take a moment.",
+    "modal_text_generate_dynamic": "We'll generate your remaining semesters based on the best upcoming semester plan. This process may take a moment.",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "show_full_timeline": "Show Full Timeline",
+    "generated_semesters": "Generated Semesters",
+    "collapse_view": "Collapse View",
+    "creating_your_optimal_semester_plan": "Creating your optimal semester plan...",
+    "courses_eligible_for_registration_below": "Courses Eligible for Registration Below:",
+    "modal_max1": "Maximum 20 credits allowed. Currently selected: ",
+    "modal_max2": "Please deselect some courses before selecting new ones.",
+    "upcoming": "Upcoming",
+    "credits_selected": "Credits Selected",
+    "no_courses_available": "No courses available"
+
+  },
+  "sched_tool": {
+    "title": "Scheduling Tool",
+    "info_smart": "This is smart scheduling mode. It automatically optimizes your timetable based on your preferences. Mark sections (doctors, course offerings) as preferred or excluded, and the system will find the best combination with the fewest gaps between courses. Note that user-added breaks take top priority and will override course sections in case of time conflicts.",
+    "info_man": "This is the manual scheduling mode. You may select only one offering per course. Time conflicts will trigger warnings, and you may add descriptive breaks to customize your weekly schedule.",
+    "choose_pref": "Choose Preferences",
+    "choose_off": "Choose Courses Offerings",
+    "choose_off_dropdown": "Choose Offering",
+    "choose_off_option": "Select an offering",
+    "mode_smart": "Smart Selection Mode",
+    "mode_manual": "Manual Selection Mode",
+    "offering_preferences": "Offering Preferences",
+    "sections": "Sections",
+    "credits": "Credits",
+    "professors": "Professors",
+    "section": "Section ",
+    "time_constraint": "Time Constraints",
+    "add_break": "Add Break",
+    "no_constraint": "No time constraint added",
+    "quick_restrictions": "Quick Restrictions",
+    "evening_classes": "No Evening Classes(3-5 PM)",
+    "morning_classes": "No Morning Classes(8-10 AM)",
+    "wed_classes": "No Wednesday Classes",
+    "fri_classes": "No Friday Classes",
+    "lunch_break": "Lunch Break (12-1 PM)",
+    "description": "Description",
+    "select_days": "Select Days",
+    "time": "Time Range",
+    "title_cal": "Semester Weekly Schedule",
+    "switch_planner": "Switch Planner Type",
+    "import_courses": "Import Courses",
+    "save_schedule": "Save Schedule",
+    "down_schedule": "Download Schedule",
+    "no_courses": "No courses added",
+    "no_courses_desc": "Click 'Import Courses' to start building your schedule",
+    "choose_courses_source": "Choose Courses Source",
+    "choose_courses_source_banner": "Choose the courses you want to make a schedule with.",
+    "cus_modal_title": "Customized POS",
+    "cus_modal_body": "Take control and make a schedule with your own courses previouly planned for the upcoming semester",
+    "best_modal_title": "Best POS",
+    "best_modal_body": "Let the system craft the best path for you using the optimal plan for the upcoming semester",
+    "choose_plan": "Select Planner Type",
+    "choose_plan_banner": "Changing the current plan will delete all unsaved changes",
+    "cus_plan_title": "Custom Plan",
+    "cus_plan_body": "Manually create and adjust your academic schedule",
+    "smart_modal_title": "Smart Planner",
+    "smart_modal_body": "Automatically generate optimized schedules",
+    "generate_schedule": "Generate Schedule",
+    "change_off": "Change Offering",
+    "add_preference": "Add to preference",
+    "remove_preference": "Remove from preferences",
+    "deselect": "Deselected due to ",
+    "preference": "preference",
+    "prof_no_selection": "Professor not selected in preferences",
+    "one_day": "Please select at least one day",
+    "one_range": "Please select time range you prefer",
+    "one_start_end": "Please select both start and end times",
+    "one_before": "Start time cannot be before 8:00 AM",
+    "one_after": "End time cannot be after 5:00 PM",
+    "one_order": "End time must be after start time",
+    "schedule_conflict": "Schedule Conflict",
+    "conflicting_with": "Conflicting With",
+    "available_options": "Available Options",
+    "adjust": "Adjust new time constraint",
+    "remove": "Remove existing event first"
+  },
+  "days": {
+    "all_week": "All week",
+    "mon": "Mon",
+    "tue": "Tue",
+    "wed": "Wed",
+    "thu": "Thu",
+    "fri": "Fri",
+
+    "mon_tue": "Mon/Tue",
+    "mon_wed": "Mon/Wed",
+    "mon_thu": "Mon/Thu",
+    "mon_fri": "Mon/Fri",
+    "tue_wed": "Tue/Wed",
+    "tue_thu": "Tue/Thu",
+    "tue_fri": "Tue/Fri",
+    "wed_thu": "Wed/Thu",
+    "wed_fri": "Wed/Fri",
+    "thu_fri": "Thu/Fri",
+
+    "mon_tue_wed": "Mon/Tue/Wed",
+    "mon_tue_thu": "Mon/Tue/Thu",
+    "mon_tue_fri": "Mon/Tue/Fri",
+    "mon_wed_thu": "Mon/Wed/Thu",
+    "mon_wed_fri": "Mon/Wed/Fri",
+    "mon_thu_fri": "Mon/Thu/Fri",
+    "tue_wed_thu": "Tue/Wed/Thu",
+    "tue_wed_fri": "Tue/Wed/Fri",
+    "tue_thu_fri": "Tue/Thu/Fri",
+    "wed_thu_fri": "Wed/Thu/Fri",
+
+    "mon_tue_wed_thu": "Mon/Tue/Wed/Thu",
+    "mon_tue_wed_fri": "Mon/Tue/Wed/Fri",
+    "mon_tue_thu_fri": "Mon/Tue/Thu/Fri",
+    "mon_wed_thu_fri": "Mon/Wed/Thu/Fri",
+    "tue_wed_thu_fri": "Tue/Wed/Thu/Fri",
+
+    "mon_tue_wed_thu_fri": "Mon–Fri"
+  },
+  "chats": {
+    "please": "Please select a chat to begin messaging.",
+    "type": "Type your message...",
+    "chats_h": "Chats History",
+    "chats": "chats",
+    "you": "You",
+    "advisor": "Advisor"
+  },
+  "login": "Login",
+  "id": "User ID",
+  "requiredField": "This field is required",
+  "password": "Password",
+  "forgotPass": "Forgot password?",
+  "loginInfo": "Enter your credentials to log in.",
+  "rememberMe": "Remember me"
+}

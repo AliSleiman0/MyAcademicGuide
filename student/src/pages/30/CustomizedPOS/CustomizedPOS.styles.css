@@ -1,0 +1,37 @@
+@keyframes flash {
+    0% {
+        background-color: #038b94;
+    }
+
+    12.5% {
+        background-color: transparent;
+    }
+
+    25% {
+        background-color: #038b94;
+    }
+
+    37.5% {
+        background-color: transparent;
+    }
+
+    50% {
+        background-color: #038b94;
+    }
+
+    62.5% {
+        background-color: transparent;
+    }
+
+    75% {
+        background-color: #038b94;
+    }
+
+    100% {
+        background-color: transparent;
+    }
+}
+
+.flash-highlight {
+    animation: flash 3s ease-in-out;
+}
